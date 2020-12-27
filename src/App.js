@@ -33,7 +33,7 @@ function App() {
   };
 
   const getTicket=()=>{
-    Axios.get("https://supportwebsite.herokuapp.com//ticket").then((response)=>{
+    Axios.get("https://supportwebsite.herokuapp.com/ticket").then((response)=>{
       setTicketList(response.data);
     });
   };
